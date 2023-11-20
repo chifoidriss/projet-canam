@@ -1,0 +1,23 @@
+Le projet est fait en Java 17 avec Spring Boot 3 et MySQL comme Backend et Angular 16 en Frontend
+
+Lien du projet:
+https://github.com/chifoidriss/projet-canam.git
+
+A. Dépendences:
+1. Java 17
+2. MySQL
+3. Spring Boot 3.1.5
+
+Configuration
+1. Base de donnée: shapes
+	a. Utilsateur: root
+	b. Mot de passe: <Laisser vide>
+
+2. Démarrer le serveur Backend avec la commande
+	a. Sur Windows: mvnw spring-boot:run
+	b. Sur Linux: ./mvnw spring-boot:run
+	c. Le shéma des tables de la base de donnée sera créé lors du lancement du serveur
+
+3. Démarrer le l'application Frontend sur Angular 16 et NodeJS 18
+	a. À l'intérieur du dossier shapes-front, installer les dépendences avec: npm install
+	b. Lancer l'application avec la commande: ng serve
